@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import Main from '../component/main/index';
 
-ReactDOM.render(<p>121212</p>, document.getElementById('react-content'));
+ReactDOM.render(<Main />, document.getElementById('react-content'));
