@@ -20,12 +20,10 @@ module.exports = {
         loaders: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: /^node_modules$/,
-                loader: 'babel',
+                loader: 'babel-loader',
                 query: {
-                    presets: ['es2015', 'react']
+                  presets: ['react','es2015']
                 }
-
             },{
                 test: /\.(css|scss)$/,
                 loader: ExtractTextPlugin.extract("style", "css!sass!autoprefixer")

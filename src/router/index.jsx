@@ -1,5 +1,8 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import Main from '../component/main/index';
+import Top from '../component/main/Top';
 
-ReactDOM.render(<Main />, document.getElementById('react-content'));
+ReactDOM.render(
+    <Top />,
+    document.getElementById('react-content')
+);
